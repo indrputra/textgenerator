@@ -1,2 +1,2 @@
 # textgenerator
-#https://suatekno.id/fancy-text/
+# https://suatekno.id/fancy-text/
