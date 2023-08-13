@@ -41,7 +41,7 @@ function generateFancy(txt) {
      text = 'Preview Text';
    } 
    var that = $(this);
-   var intvl = setInterval(function(){  that.html('<i class="tipi-i-arrow-right"></i><span class="button-title">Load More Fonts</span>');clearInterval(intvl); }, 1000);
+   var intvl = setInterval(function(){  that.html('<span class="button-title">Load More Text</span>');clearInterval(intvl); }, 1000);
    for(var i=1;i<=10;i++){
     fancyText  =  '<div class="input-group mb-3"><input type="text" class="form-control" value="'+crazyWithFlourishOrSymbols(text)+'" id="copy_'+ct+'" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_'+ct+'"><svg class="iconSVG icon-textCopy"><use xlink:href="#rounded-copy"/></svg></span></div></div>';
       ct++;
