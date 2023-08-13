@@ -9,7 +9,7 @@ $(function(){
 var intv = setInterval(function(){ $(".copybutton").html('<svg class="iconSVG icon-textCopy"><use xlink:href="#rounded-copy"/></svg>'); }, 2000);
   $("body").on('click',".copybutton",function() { 
 $(".copybutton").html('<svg class="iconSVG icon-textCopy"><use xlink:href="#rounded-copy"/></svg>');
-$(this).html('<span class="copied-msg"></span><svg class="iconSVG icon-textCopied"><use xlink:href="#text-copied"/></svg>'); 
+$(this).html('<span class="copied-msg"></span><svg class="iconSVG icon-textCopied"><use xlink:href="#rounded-copy"/></svg>'); 
 clearInterval(intv);
 });
 });
